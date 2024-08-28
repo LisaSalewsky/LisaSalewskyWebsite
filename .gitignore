@@ -10,6 +10,7 @@ node_modules/
 **/appsettings.Development.json
 **/wwwroot/
 cache/
+**/.vscode/
 
 *.obj
 *.exe
