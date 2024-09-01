@@ -205,19 +205,34 @@ a:hover {
     display: flex;
 }
 .form-submit {
-    width: 50%;
+    width: 50%
 }
 
 .framed-section{
     display: flex;
+    /* align-items: flex-start; */
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0 5vw 5vh 0;
     border-radius: 20px;
     border-color: #dbdbdb;
     /* box-shadow: inset 0 .0625em .125em rgba(208,136,93, 0.795); */
     box-shadow: 0 .5em 1em .5em hsla(0,0%,4%,.1),0 0 0 1px hsla(0,0%,4%,.02);
     padding: 20px calc(.75em - 1px);
+    box-sizing: border-box;
+}
+
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.half-width {
+    width: calc(50% - 5vw);
+    box-sizing: border-box;
+    margin-bottom: 5vh;
 }
 
 .form-submit input {

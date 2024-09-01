@@ -61,12 +61,14 @@
 
 .progress-circle-number {
     font-weight: 600;
-    color: rgb(106, 21, 20);
+    color: rgb(165, 75, 53);
 }
 
 circle {
     fill: none;
-    stroke: rgb(208,136,93);
+    /* stroke: rgb(208,136,93);
+    stroke: rgb(165, 75, 53); */
+    stroke: url(#GradientColor);
     stroke-width: 20px;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
