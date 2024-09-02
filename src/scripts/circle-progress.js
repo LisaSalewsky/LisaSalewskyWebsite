@@ -5,6 +5,7 @@ let kanbanValue = 75;
 let jiraValue = 75;
 let confluenceValue = 75;
 let reqValue = 65;
+let dockerValue = 45;
 
 
 let teamworkValue = 90;
@@ -18,6 +19,8 @@ let kanbanNumber = document.getElementById("kanban-circle-num")
 let jiraNumber = document.getElementById("jira-circle-num")
 let confluenceNumber = document.getElementById("confluence-circle-num")
 let requirementNumber = document.getElementById("requirement-analysis-circle-num")
+let dockerNumber = document.getElementById("docker-circle-num")
+
 
 
 let teamworkNumber = document.getElementById("teamwork-circle-num")
@@ -97,8 +100,32 @@ setInterval (() => {
     requirementNumber.innerHTML = reqCounter + "%";
     } 
 }, 16);
+
+
+
+
+let dockerCounter = 0;
+setInterval (() => {
+    if(dockerCounter == dockerValue) {
+        clearInterval();
+    } 
+    else {
+        dockerCounter +=1;
+        dockerNumber.innerHTML = dockerCounter + "%";
+    } 
+}, 16);
+
+
+
+
+
+
 }
 
+
+
+
+{
 let teamworkCounter = 0;
 setInterval (() => {
     if(teamworkCounter == teamworkValue) {
@@ -142,3 +169,49 @@ setInterval (() => {
         projManagementNumber.innerHTML = projManagementCounter + "%"; 
     } 
 }, 15);
+}
+
+{
+
+let sewingValue = 65;
+let dancingValue = 50;
+let boulderingValue = 35;
+
+let sewingNumber = document.getElementById("sewing-circle-num");
+let dancingNumber = document.getElementById("dancing-circle-num");
+let boulderingNumber = document.getElementById("bouldering-circle-num");
+
+let sewingCounter = 0;
+setInterval (() => {
+    if(sewingCounter == sewingValue) {
+        clearInterval();
+    } 
+    else { 
+        sewingCounter +=1;
+        sewingNumber.innerHTML = sewingCounter + "%"; 
+    } 
+}, 15);
+
+let dancingCounter = 0;
+setInterval (() => {
+    if(dancingCounter == dancingValue) {
+        clearInterval();
+    } 
+    else { 
+        dancingCounter +=1;
+        dancingNumber.innerHTML = dancingCounter + "%"; 
+    } 
+}, 15);
+
+let boulderingCounter = 0;
+setInterval (() => {
+    if(boulderingCounter == boulderingValue) {
+        clearInterval();
+    } 
+    else { 
+        boulderingCounter +=1;
+        boulderingNumber.innerHTML = boulderingCounter + "%"; 
+    } 
+}, 15);
+
+}
