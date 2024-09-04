@@ -3,7 +3,9 @@ body{
     color: rgb(208,136,93);
     font-family: 'Bitter', serif;
     font-size: 1rem;
-    height: 100%;margin: 0;
+    /* height: 100vh; */
+    min-height: 100vh;
+    margin: 0;
     padding: 0;
     position: relative;
     display: flex;
@@ -81,42 +83,96 @@ section{
     font-weight: 100;
 }
 
+
+
+.socials {
+    position: fixed;
+    right: 0;
+    top: 35vh;
+    width: var (--socials-width);
+    height: 320px;
+    background-color: rgb(231, 192, 173);
+    border-radius: 30px 0 0 30px;
+    box-shadow: -8px 8px 10px 2px rgba(0,0,0,0.4);
+    z-index: 3;
+}
+
+.socials a:hover {
+    background-color: rgb(231, 192, 173);
+}
+
+/* 
+@media only screen and (max-width: 1039px){
+    .socials{
+        display: none;
+    }
+} */
+
+.social {
+    width: 80px;
+    height: 80px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    /* background-color: rgb(83, 10, 8); */
+    background-color: transparent;
+    color: white;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social svg {
+    fill: rgb(106, 21, 20);
+}
+
+
+
+
 footer {
-    position: relative;
-    /* left: 0;
+    position: absolute;
+    left: 0;
     bottom: 0;
-    min-height: 200px;
+    /*min-height: 200px;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center; */
-    min-height: 200px;
+    /* min-height: 55vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* background-color: rgb(231, 192, 173); Match the background */
-    z-index: 1;
+    z-index: 3;
+    padding-bottom: 20px;
 }
 
 .sub-pages-footer{
     /* position: fixed;
     bottom: 0; */
     /* left: 0; */
-    width: 100vw;
+    /* width: 100vw;
+    display: flex;
+    flex-direction: column; */
+    background-color: rgba(106, 21, 20, 0.541);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(106, 21, 20, 0.541);
+    align-items: center;
+    /* background-color: rgb(231, 192, 173); Match the background */
+    z-index: 1;
+    padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 970px){
+/* @media only screen and (max-width: 970px){
     .sub-pages-footer{
-        /* position: relative; */
         position: fixed;
         left: 0;
         bottom: 0;
     }
-}
+} */
 
 footer ul {
     display: flex;
