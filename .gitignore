@@ -40,10 +40,8 @@ obj/s
 *.user
 *.userosscache
 *.sln.docstates
-**/images/
 **/img/
 **/bilder/
-*.pdf
 *.csv
 **/.ipynb_checkpoints/
 
