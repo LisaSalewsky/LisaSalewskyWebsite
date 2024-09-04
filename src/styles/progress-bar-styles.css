@@ -15,15 +15,21 @@
 .bar span {
     font-size: 17px;
     font-weight: 500;
+}
+
+.bar span.in-view {
     animation: showText 0.5s 1s linear forwards;
 }
 
-.progress-line{
+.progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
     height: 5px;
     background-color: white;
+}
+
+.progress-line.in-view {
     animation: animate-bar 1s cubic-bezier(1,0,0.5,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
@@ -42,6 +48,9 @@
     background-color: rgb(165, 75, 53);
     position: absolute;
     border-radius: 10px;
+}
+
+.progress-line span.in-view {
     animation: animate-bar 1s 1s cubic-bezier(1,0,0.5,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
@@ -57,6 +66,9 @@
     border-radius: 3px;
     top: 20px;
     right: -20px;
+}
+
+.progress-line span.in-view::after {
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
@@ -73,6 +85,10 @@
     border-bottom-color: rgb(165, 75, 53);
     top: 10px;
     right: 0px;
+}
+
+
+.progress-line span.in-view::before {
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
@@ -83,64 +99,64 @@
     }
 }
 
-.percentage-bar-5 span{
+.percentage-bar-5 span.in-view {
     width: 5%;
 }
-.percentage-bar-10 span {
+.percentage-bar-10 span.in-view {
     width: 10%;
 }
-.percentage-bar-15 span {
+.percentage-bar-15 span.in-view {
     width: 15%;
 }
-.percentage-bar-20 span {
+.percentage-bar-20 span.in-view {
     width: 20%;
 }
-.percentage-bar-25 span {
+.percentage-bar-25 span.in-view {
     width: 25%;
 }
-.percentage-bar-30 span {
+.percentage-bar-30 span.in-view {
     width: 30%;
 }
-.percentage-bar-35 span {
+.percentage-bar-35 span.in-view {
     width: 35%;
 }
-.percentage-bar-40 span {
+.percentage-bar-40 span.in-view {
     width: 40%;
 }
-.percentage-bar-45 span {
+.percentage-bar-45 span.in-view {
     width: 45%;
 }
-.percentage-bar-50 span {
+.percentage-bar-50 span.in-view {
     width: 50%;
 }
-.percentage-bar-55 span {
+.percentage-bar-55 span.in-view {
     width: 55%;
 }
-.percentage-bar-60 span {
+.percentage-bar-60 span.in-view {
     width: 60%;
 }
-.percentage-bar-65 span {
+.percentage-bar-65 span.in-view {
     width: 65%;
 }
-.percentage-bar-70 span {
+.percentage-bar-70 span.in-view {
     width: 70%;
 }
-.percentage-bar-75 span {
+.percentage-bar-75 span.in-view {
     width: 75%;
 }
-.percentage-bar-80 span {
+.percentage-bar-80 span.in-view {
     width: 80%;
 }
-.percentage-bar-85 span {
+.percentage-bar-85 span.in-view {
     width: 85%;
 }
-.percentage-bar-90 span {
+.percentage-bar-90 span.in-view {
     width: 90%;
 }
-.percentage-bar-95 span {
+.percentage-bar-95 span.in-view {
     width: 95%;
 }
-.percentage-bar-100 span {
+.percentage-bar-100 span.in-view {
     width: 100%;
 }
 
