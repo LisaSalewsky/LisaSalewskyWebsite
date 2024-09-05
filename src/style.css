@@ -105,9 +105,9 @@ section{
 @media only screen and (max-width: 1039px){
     .socials{
         display: none;
-    }
-} */
-
+        }
+        } */
+        
 .social {
     width: 80px;
     height: 80px;
@@ -123,7 +123,19 @@ section{
 .social svg {
     fill: rgb(106, 21, 20);
 }
+        
+        
 
+@media only screen and (max-width: 1100px) {
+    .socials {
+        height: 200px;
+        width: var (--socials-width-small);
+    }
+    .social {
+        width: 40px;
+        height: 40px;
+    }
+}
 
 
 
