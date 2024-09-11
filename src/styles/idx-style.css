@@ -1,9 +1,9 @@
 :root {
-    --typewriterSpeed: 3s;
+    --typewriterSpeed: 2s;
     --typewirterWait: 1s;
     --typewriterSteps: 21;
     --blinkingSpeed: 1s;
-    --blinkingWait: 5.5s;
+    --blinkingWait: 4.5s;
     --socials-width: 100px;
     --socials-width-small: 50px;
 }
@@ -63,6 +63,10 @@
     left: 0;
 }
 
+.burger-menu {
+    display: none;
+}
+
 
 @media screen and (max-width: 1039px) {
     .wave {
@@ -72,10 +76,51 @@
         height: 100%;
     }
      .hero-section{
-        width: calc(100vw- var(--socials-width));
-        margin: 0 var(--socials-width);
+        width: calc(100vw - var(--socials-width) - var(--socials-width) );
+        margin: var(--socials-width);
+        padding-bottom: 100px;
      }
      
+     footer h2{
+        width: calc(100vw - var(--socials-width) - var(--socials-width) );
+        margin: 0px var(--socials-width);
+        padding: 0px;
+     }
+     
+    /* Show the burger menu and hide the socials */
+    .burger-menu {
+        display: block;
+        background: none;
+        border-radius: 50%;
+        color: rgb(231, 192, 173);
+        position: fixed;
+        right: 20px;
+        top: 30vh;
+        background-color: rgb(83, 10, 8);
+        border-color: rgb(83, 10, 8);
+        width: 2em;
+        height: 2em;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .socials.show {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 35vh;
+        width: var (--socials-width);
+        height: 320px;
+        background-color: rgb(231, 192, 173);
+        border-radius: 30px 0 0 30px;
+        box-shadow: -8px 8px 10px 2px rgba(0,0,0,0.4);
+        opacity: 1;
+    }
 
 }
 
@@ -105,7 +150,8 @@
     width: 100%;
     background-color: rgb(231, 192, 173);
     /* border-left: 2px solid rgb(83, 10, 8); */
-    animation: typing var(--typewriterSpeed) steps(var(--typewriterSteps))  2s forwards;
+    animation: typing var(--typewriterSpeed) steps(var(--typewriterSteps)) 2s forwards,
+    removeBar 0.1ms 4s forwards;
 }
 
 .idx-page-visited-cookies 
@@ -126,7 +172,7 @@
 
 @media screen and (max-width: 633px) {
     .idx-page-visited-cookies 
-    .main-content 
+    .main-content
     .hero-section 
     .wrapper 
     .dynamic-txt span::before {
@@ -169,12 +215,21 @@ footer {
 @keyframes typing {
     to {
         left: 100%;
+        width: 0;
     }
 }
 
 @keyframes blink {
     to {
         background-color: transparent;
+    }
+}
+
+@keyframes removeBar {
+    to {
+        background-color: transparent;
+        opacity: 0;
+        width: 0;
     }
 }
 

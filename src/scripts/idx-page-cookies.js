@@ -42,3 +42,8 @@ checkSiteFormat = () => {
 }
 
 checkSiteFormat();
+
+function toggleMenu() {
+    const socials = document.getElementById('socials');
+    socials.classList.toggle('show');
+}
