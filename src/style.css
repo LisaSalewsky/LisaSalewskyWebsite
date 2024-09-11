@@ -58,6 +58,10 @@ h3 {
     font-weight: 500;
 }
 
+div {
+    text-align: center;
+}
+
 .subtitle{
     font-size: 50px;
 }

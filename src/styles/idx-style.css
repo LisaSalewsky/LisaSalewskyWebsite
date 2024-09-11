@@ -90,6 +90,7 @@
     /* Show the burger menu and hide the socials */
     .burger-menu {
         align-content: center;
+        align-items: center;
         display: block;
         background: none;
         border-radius: 50%;
