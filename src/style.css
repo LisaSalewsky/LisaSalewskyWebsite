@@ -129,7 +129,9 @@ footer {
     flex-direction: column;
     align-items: center; */
     /* min-height: 55vh; */
-    width: 100%;
+    width: calc(100vw - var(--socials-width) - var(--socials-width));
+    margin-left: var(--socials-width);
+    margin-right: var(--socials-width);
     display: flex;
     flex-direction: column;
     align-items: center;
