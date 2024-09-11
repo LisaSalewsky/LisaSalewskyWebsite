@@ -98,7 +98,7 @@
         right: 20px;
         top: 30vh;
         background-color: rgb(83, 10, 8);
-        border-color: rgb(83, 10, 8);
+        border: none;
         width: 2em;
         height: 2em;
         font-size: 24px;
