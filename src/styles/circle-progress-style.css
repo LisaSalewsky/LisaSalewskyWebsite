@@ -449,12 +449,18 @@ circle {
 
 
 @supports (-webkit-appearance: none) {
-    .radial-bar svg {
-       
-    position: absolute;
-    top: 5%;
-    left: 70%;
-    }
+   
+.radial-bar .progress-bar {
+    stroke-width: 10;
+    stroke: white;
+    fill: black;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    will-change: stroke-dashoffset;
+    overflow: visible;
+}
+
 }
 
 
