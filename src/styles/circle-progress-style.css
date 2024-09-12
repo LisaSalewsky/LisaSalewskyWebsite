@@ -475,6 +475,7 @@ circle {
     transform: translate(-50%, -50%) rotate(-90deg);
     width: 120px;
     height: 160px;
+    will-change: stroke-dashoffset;
 }
 
 .radial-bar .progress-bar {
@@ -484,6 +485,7 @@ circle {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
+    will-change: stroke-dashoffset;
 }
 
 .radial-bar .progress-bar.in-view {
@@ -492,13 +494,13 @@ circle {
 
 @keyframes animate-radial-bar {
     100% {
-        stroke-dashoffset: -1;
+        stroke-dashoffset: 0;
     }
 }
 
 @-webkit-keyframes animate-radial-bar {
     100% {
-        stroke-dashoffset: -1;
+        stroke-dashoffset: 0;
     }
 }
 
