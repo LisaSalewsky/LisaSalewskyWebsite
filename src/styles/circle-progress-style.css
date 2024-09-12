@@ -70,8 +70,8 @@ circle {
     stroke: rgb(165, 75, 53); */
     stroke: url(#GradientColor);
     stroke-width: 20px;
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
 }
 
 .circ-name {
@@ -99,344 +99,331 @@ circle {
     will-change: transform;
 }
 
+
+/* For 5% Circle */
+.c-5.in-view {
+    animation: circAnim-5 1.5s linear forwards;
+}
+
 @keyframes circAnim-5 {
     100%{
-        stroke-dashoffset: 418;
+        stroke-dashoffset: 476.9;
     }
-    
 }
 
 @-webkit-keyframes circAnim-5 {
     100%{
-        stroke-dashoffset: 418;
+        stroke-dashoffset: 476.9;
     }
-    
 }
 
+/* For 10% Circle */
 .c-10.in-view {
-    animation: circAnim-10 1.5ss linear forwards;
+    animation: circAnim-10 1.5s linear forwards;
 }
 
 @keyframes circAnim-10 {
     100%{
-        stroke-dashoffset: 396;
+        stroke-dashoffset: 451.8;
     }
-    
 }
 
 @-webkit-keyframes circAnim-10 {
     100%{
-        stroke-dashoffset: 396;
+        stroke-dashoffset: 451.8;
     }
-    
 }
 
+/* For 15% Circle */
 .c-15.in-view {
     animation: circAnim-15 1.5s linear forwards;
 }
 
 @keyframes circAnim-15 {
     100%{
-        stroke-dashoffset: 374;
+        stroke-dashoffset: 426.7;
     }
-    
 }
 
 @-webkit-keyframes circAnim-15 {
     100%{
-        stroke-dashoffset: 374;
+        stroke-dashoffset: 426.7;
     }
-    
 }
 
+/* For 20% Circle */
 .c-20.in-view {
     animation: circAnim-20 1.5s linear forwards;
 }
 
 @keyframes circAnim-20 {
     100%{
-        stroke-dashoffset: 352;
+        stroke-dashoffset: 401.6;
     }
-    
 }
 
 @-webkit-keyframes circAnim-20 {
     100%{
-        stroke-dashoffset: 352;
+        stroke-dashoffset: 401.6;
     }
-    
 }
 
+/* For 25% Circle */
 .c-25.in-view {
     animation: circAnim-25 1.5s linear forwards;
 }
 
 @keyframes circAnim-25 {
     100%{
-        stroke-dashoffset: 330;
+        stroke-dashoffset: 376.5;
     }
-    
 }
 
 @-webkit-keyframes circAnim-25 {
     100%{
-        stroke-dashoffset: 330;
+        stroke-dashoffset: 376.5;
     }
-    
 }
 
+/* For 30% Circle */
 .c-30.in-view {
     animation: circAnim-30 1.5s linear forwards;
 }
 
 @keyframes circAnim-30 {
     100%{
-        stroke-dashoffset: 308;
+        stroke-dashoffset: 351.4;
     }
-    
 }
 
 @-webkit-keyframes circAnim-30 {
     100%{
-        stroke-dashoffset: 308;
+        stroke-dashoffset: 351.4;
     }
-    
 }
 
+/* For 35% Circle */
 .c-35.in-view {
     animation: circAnim-35 1.5s linear forwards;
 }
 
 @keyframes circAnim-35 {
     100%{
-        stroke-dashoffset: 286;
+        stroke-dashoffset: 326.3;
     }
-    
 }
 
 @-webkit-keyframes circAnim-35 {
     100%{
-        stroke-dashoffset: 286;
+        stroke-dashoffset: 326.3;
     }
-    
 }
 
+/* For 40% Circle */
 .c-40.in-view {
     animation: circAnim-40 1.5s linear forwards;
 }
 
 @keyframes circAnim-40 {
     100%{
-        stroke-dashoffset: 264;
+        stroke-dashoffset: 301.2;
     }
-    
 }
 
 @-webkit-keyframes circAnim-40 {
     100%{
-        stroke-dashoffset: 264;
+        stroke-dashoffset: 301.2;
     }
-    
 }
 
+/* For 45% Circle */
 .c-45.in-view {
     animation: circAnim-45 1.5s linear forwards;
 }
 
 @keyframes circAnim-45 {
     100%{
-        stroke-dashoffset: 242;
+        stroke-dashoffset: 276.1;
     }
-    
 }
 
 @-webkit-keyframes circAnim-45 {
     100%{
-        stroke-dashoffset: 242;
+        stroke-dashoffset: 276.1;
     }
-    
 }
 
+/* For 50% Circle */
 .c-50.in-view {
     animation: circAnim-50 1.5s linear forwards;
 }
 
 @keyframes circAnim-50 {
     100%{
-        stroke-dashoffset: 220;
+        stroke-dashoffset: 251;
     }
-    
 }
 
 @-webkit-keyframes circAnim-50 {
     100%{
-        stroke-dashoffset: 220;
+        stroke-dashoffset: 251;
     }
-    
 }
 
+/* For 55% Circle */
 .c-55.in-view {
     animation: circAnim-55 1.5s linear forwards;
 }
 
 @keyframes circAnim-55 {
     100%{
-        stroke-dashoffset: 198;
+        stroke-dashoffset: 225.9;
     }
-    
 }
 
 @-webkit-keyframes circAnim-55 {
     100%{
-        stroke-dashoffset: 198;
+        stroke-dashoffset: 225.9;
     }
-    
 }
 
+/* For 60% Circle */
 .c-60.in-view {
     animation: circAnim-60 1.5s linear forwards;
 }
 
 @keyframes circAnim-60 {
     100%{
-        stroke-dashoffset: 176;
+        stroke-dashoffset: 200.8;
     }
-    
 }
 
 @-webkit-keyframes circAnim-60 {
     100%{
-        stroke-dashoffset: 176;
+        stroke-dashoffset: 200.8;
     }
-    
 }
 
+/* For 65% Circle */
 .c-65.in-view {
     animation: circAnim-65 1.5s linear forwards;
 }
 
 @keyframes circAnim-65 {
     100%{
-        stroke-dashoffset: 154;
+        stroke-dashoffset: 175.7;
     }
-    
 }
 
 @-webkit-keyframes circAnim-65 {
     100%{
-        stroke-dashoffset: 154;
+        stroke-dashoffset: 175.7;
     }
-    
 }
 
+/* For 70% Circle */
 .c-70.in-view {
     animation: circAnim-70 1.5s linear forwards;
 }
 
 @keyframes circAnim-70 {
     100%{
-        stroke-dashoffset: 132;
+        stroke-dashoffset: 150.6;
     }
-    
 }
 
 @-webkit-keyframes circAnim-70 {
     100%{
-        stroke-dashoffset: 132;
+        stroke-dashoffset: 150.6;
     }
-    
 }
 
+/* For 75% Circle */
 .c-75.in-view {
     animation: circAnim-75 1.5s linear forwards;
 }
 
 @keyframes circAnim-75 {
     100%{
-        stroke-dashoffset: 110;
+        stroke-dashoffset: 125.5;
     }
-    
 }
 
 @-webkit-keyframes circAnim-75 {
     100%{
-        stroke-dashoffset: 110;
+        stroke-dashoffset: 125.5;
     }
-    
 }
 
+/* For 80% Circle */
 .c-80.in-view {
     animation: circAnim-80 1.5s linear forwards;
 }
 
 @keyframes circAnim-80 {
     100%{
-        stroke-dashoffset: 88;
+        stroke-dashoffset: 100.4;
     }
-    
 }
 
 @-webkit-keyframes circAnim-80 {
     100%{
-        stroke-dashoffset: 88;
+        stroke-dashoffset: 100.4;
     }
-    
 }
 
+/* For 85% Circle */
 .c-85.in-view {
     animation: circAnim-85 1.5s linear forwards;
 }
 
 @keyframes circAnim-85 {
     100%{
-        stroke-dashoffset: 66;
+        stroke-dashoffset: 75.3;
     }
-    
 }
 
 @-webkit-keyframes circAnim-85 {
     100%{
-        stroke-dashoffset: 66;
+        stroke-dashoffset: 75.3;
     }
-    
 }
 
+/* For 90% Circle */
 .c-90.in-view {
     animation: circAnim-90 1.5s linear forwards;
 }
 
 @keyframes circAnim-90 {
     100%{
-        stroke-dashoffset: 44;
+        stroke-dashoffset: 50.2;
     }
-    
 }
 
 @-webkit-keyframes circAnim-90 {
     100%{
-        stroke-dashoffset: 44;
+        stroke-dashoffset: 50.2;
     }
-    
 }
 
+/* For 95% Circle */
 .c-95.in-view {
     animation: circAnim-95 1.5s linear forwards;
 }
 
 @keyframes circAnim-95 {
     100%{
-        stroke-dashoffset: 22;
+        stroke-dashoffset: 25.1;
     }
-    
 }
 
 @-webkit-keyframes circAnim-95 {
     100%{
-        stroke-dashoffset: 22;
+        stroke-dashoffset: 25.1;
     }
-    
 }
 
+/* For 100% Circle */
 .c-100.in-view {
     animation: circAnim-100 1.5s linear forwards;
 }
@@ -445,16 +432,17 @@ circle {
     100%{
         stroke-dashoffset: 0;
     }
-    
 }
 
 @-webkit-keyframes circAnim-100 {
     100%{
         stroke-dashoffset: 0;
     }
-    
 }
-/* 440-440* */
+
+
+
+
 
 
 
@@ -503,6 +491,12 @@ circle {
 }
 
 @keyframes animate-radial-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+
+@-webkit-keyframes animate-radial-bar {
     100% {
         stroke-dashoffset: -1;
     }
@@ -561,183 +555,342 @@ circle {
     stroke-linecap: round;
 }
 
+
+/* Path 5% */
 .path-5.in-view {
     animation: animate-path-5 1s 1s linear forwards;
 }
+
 @keyframes animate-path-5 {
     100% {
         stroke-dashoffset: 476.9;
     }
 }
 
+@-webkit-keyframes animate-path-5 {
+    100% {
+        stroke-dashoffset: 476.9;
+    }
+}
+
+/* Path 10% */
 .path-10.in-view {
     animation: animate-path-10 1s 1s linear forwards;
 }
+
 @keyframes animate-path-10 {
     100% {
         stroke-dashoffset: 451.8;
     }
 }
 
+@-webkit-keyframes animate-path-10 {
+    100% {
+        stroke-dashoffset: 451.8;
+    }
+}
+
+/* Path 15% */
 .path-15.in-view {
     animation: animate-path-15 1s 1s linear forwards;
 }
+
 @keyframes animate-path-15 {
     100% {
         stroke-dashoffset: 426.7;
     }
 }
 
+@-webkit-keyframes animate-path-15 {
+    100% {
+        stroke-dashoffset: 426.7;
+    }
+}
+
+/* Path 20% */
 .path-20.in-view {
     animation: animate-path-20 1s 1s linear forwards;
 }
+
 @keyframes animate-path-20 {
     100% {
         stroke-dashoffset: 401.6;
     }
 }
 
+@-webkit-keyframes animate-path-20 {
+    100% {
+        stroke-dashoffset: 401.6;
+    }
+}
+
+/* Path 25% */
 .path-25.in-view {
     animation: animate-path-25 1s 1s linear forwards;
 }
+
 @keyframes animate-path-25 {
     100% {
         stroke-dashoffset: 376.5;
     }
 }
 
+@-webkit-keyframes animate-path-25 {
+    100% {
+        stroke-dashoffset: 376.5;
+    }
+}
+
+/* Path 30% */
 .path-30.in-view {
     animation: animate-path-30 1s 1s linear forwards;
 }
+
 @keyframes animate-path-30 {
     100% {
         stroke-dashoffset: 351.4;
     }
 }
 
+@-webkit-keyframes animate-path-30 {
+    100% {
+        stroke-dashoffset: 351.4;
+    }
+}
 
+/* Path 35% */
 .path-35.in-view {
     animation: animate-path-35 1s 1s linear forwards;
 }
+
 @keyframes animate-path-35 {
     100% {
         stroke-dashoffset: 326.3;
     }
 }
 
+@-webkit-keyframes animate-path-35 {
+    100% {
+        stroke-dashoffset: 326.3;
+    }
+}
+
+/* Path 40% */
 .path-40.in-view {
     animation: animate-path-40 1s 1s linear forwards;
 }
+
 @keyframes animate-path-40 {
     100% {
         stroke-dashoffset: 301.2;
     }
 }
 
+@-webkit-keyframes animate-path-40 {
+    100% {
+        stroke-dashoffset: 301.2;
+    }
+}
+
+/* Path 45% */
 .path-45.in-view {
     animation: animate-path-45 1s 1s linear forwards;
 }
+
 @keyframes animate-path-45 {
     100% {
         stroke-dashoffset: 276.1;
     }
 }
 
+@-webkit-keyframes animate-path-45 {
+    100% {
+        stroke-dashoffset: 276.1;
+    }
+}
+
+/* Path 50% */
 .path-50.in-view {
     animation: animate-path-50 1s 1s linear forwards;
 }
+
 @keyframes animate-path-50 {
     100% {
         stroke-dashoffset: 251;
     }
 }
 
+@-webkit-keyframes animate-path-50 {
+    100% {
+        stroke-dashoffset: 251;
+    }
+}
+
+/* Path 55% */
 .path-55.in-view {
     animation: animate-path-55 1s 1s linear forwards;
 }
+
 @keyframes animate-path-55 {
     100% {
         stroke-dashoffset: 225.9;
     }
 }
 
+@-webkit-keyframes animate-path-55 {
+    100% {
+        stroke-dashoffset: 225.9;
+    }
+}
 
+/* Path 60% */
 .path-60.in-view {
     animation: animate-path-60 1s 1s linear forwards;
 }
+
 @keyframes animate-path-60 {
     100% {
         stroke-dashoffset: 200.8;
     }
 }
 
+@-webkit-keyframes animate-path-60 {
+    100% {
+        stroke-dashoffset: 200.8;
+    }
+}
+
+/* Path 65% */
 .path-65.in-view {
     animation: animate-path-65 1s 1s linear forwards;
 }
+
 @keyframes animate-path-65 {
     100% {
         stroke-dashoffset: 175.7;
     }
 }
 
+@-webkit-keyframes animate-path-65 {
+    100% {
+        stroke-dashoffset: 175.7;
+    }
+}
+
+/* Path 70% */
 .path-70.in-view {
     animation: animate-path-70 1s 1s linear forwards;
 }
+
 @keyframes animate-path-70 {
     100% {
         stroke-dashoffset: 150.6;
     }
 }
 
+@-webkit-keyframes animate-path-70 {
+    100% {
+        stroke-dashoffset: 150.6;
+    }
+}
+
+/* Path 75% */
 .path-75.in-view {
     animation: animate-path-75 1s 1s linear forwards;
 }
+
 @keyframes animate-path-75 {
     100% {
         stroke-dashoffset: 125.5;
     }
 }
 
+@-webkit-keyframes animate-path-75 {
+    100% {
+        stroke-dashoffset: 125.5;
+    }
+}
+
+/* Path 80% */
 .path-80.in-view {
     animation: animate-path-80 1s 1s linear forwards;
 }
+
 @keyframes animate-path-80 {
     100% {
         stroke-dashoffset: 100.4;
     }
 }
 
+@-webkit-keyframes animate-path-80 {
+    100% {
+        stroke-dashoffset: 100.4;
+    }
+}
+
+/* Path 85% */
 .path-85.in-view {
     animation: animate-path-85 1s 1s linear forwards;
 }
+
 @keyframes animate-path-85 {
     100% {
         stroke-dashoffset: 75.3;
     }
 }
 
+@-webkit-keyframes animate-path-85 {
+    100% {
+        stroke-dashoffset: 75.3;
+    }
+}
+
+/* Path 90% */
 .path-90.in-view {
     animation: animate-path-90 1s 1s linear forwards;
 }
+
 @keyframes animate-path-90 {
     100% {
         stroke-dashoffset: 50.2;
     }
 }
 
+@-webkit-keyframes animate-path-90 {
+    100% {
+        stroke-dashoffset: 50.2;
+    }
+}
+
+/* Path 95% */
 .path-95.in-view {
     animation: animate-path-95 1s 1s linear forwards;
 }
+
 @keyframes animate-path-95 {
     100% {
         stroke-dashoffset: 25.1;
     }
 }
 
+@-webkit-keyframes animate-path-95 {
+    100% {
+        stroke-dashoffset: 25.1;
+    }
+}
+
+/* Path 100% */
 .path-100.in-view {
     animation: animate-path-100 1s 1s linear forwards;
 }
+
 @keyframes animate-path-100 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes animate-path-100 {
     100% {
         stroke-dashoffset: 0;
     }
