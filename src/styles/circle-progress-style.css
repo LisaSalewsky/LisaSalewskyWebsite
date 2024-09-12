@@ -457,8 +457,7 @@ circle {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
-    will-change: stroke-dashoffset;
-    overflow: visible;
+    width: 200px;
 }
 
 }
@@ -490,6 +489,7 @@ circle {
     height: 160px;
     will-change: stroke-dashoffset;
     overflow: visible;
+    z-index: 3;
 }
 
 .radial-bar .progress-bar {
