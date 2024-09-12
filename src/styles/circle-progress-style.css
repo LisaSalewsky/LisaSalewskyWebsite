@@ -93,6 +93,12 @@ circle {
     animation: circAnim-5 1.5s linear forwards;
 }
 
+.radial-bar, svg, circle {
+    -webkit-transform: translateZ(0); /* For iOS Safari */
+    transform: translateZ(0);
+    will-change: transform;
+}
+
 @keyframes circAnim-5 {
     100%{
         stroke-dashoffset: 418;
