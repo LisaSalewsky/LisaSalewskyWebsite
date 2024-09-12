@@ -96,7 +96,6 @@ circle {
 .radial-bar, svg, circle {
     -webkit-transform: translateZ(0); /* For iOS Safari */
     transform: translateZ(0);
-    will-change: transform;
 }
 
 
@@ -446,23 +445,6 @@ circle {
 
 
 
-
-
-@supports (-webkit-appearance: none) {
-   
-.radial-bar .progress-bar {
-    stroke-width: 10;
-    stroke: white;
-    fill: black;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    width: 200px;
-}
-
-}
-
-
 .radial-bars{
     width: 100%;
     display: flex;
@@ -487,8 +469,6 @@ circle {
     transform: translate(-50%, -50%) rotate(-90deg) translateZ(0);
     width: 120px;
     height: 160px;
-    will-change: stroke-dashoffset;
-    overflow: visible;
     z-index: 3;
 }
 
@@ -499,8 +479,6 @@ circle {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
-    will-change: stroke-dashoffset;
-    overflow: visible;
 }
 
 .radial-bar .progress-bar.in-view {
@@ -572,7 +550,6 @@ circle {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
-    will-change: stroke-dashoffset;
 }
 
 
