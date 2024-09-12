@@ -472,10 +472,15 @@ circle {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-90deg);
+    /* transform: translate(-50%, -50%) rotate(-90deg);
+     */
+     
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
     width: 120px;
     height: 160px;
     will-change: stroke-dashoffset;
+    overflow: visible;
 }
 
 .radial-bar .progress-bar {
@@ -486,9 +491,12 @@ circle {
     stroke-dashoffset: 502;
     stroke-linecap: round;
     will-change: stroke-dashoffset;
+    overflow: visible;
 }
 
 .radial-bar .progress-bar.in-view {
+    
+    -webkit-animation: animate-radial-bar 1s linear forwards;
     animation: animate-radial-bar 1s linear forwards;
 }
 
@@ -555,12 +563,14 @@ circle {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     stroke-linecap: round;
+    will-change: stroke-dashoffset;
 }
 
 
 /* Path 5% */
 .path-5.in-view {
     animation: animate-path-5 1s 1s linear forwards;
+    -webkit-animation: animate-path-5 1s 1s linear forwards;
 }
 
 @keyframes animate-path-5 {
@@ -578,6 +588,7 @@ circle {
 /* Path 10% */
 .path-10.in-view {
     animation: animate-path-10 1s 1s linear forwards;
+    -webkit-animation: animate-path-10 1s 1s linear forwards;
 }
 
 @keyframes animate-path-10 {
@@ -595,6 +606,7 @@ circle {
 /* Path 15% */
 .path-15.in-view {
     animation: animate-path-15 1s 1s linear forwards;
+    -webkit-animation: animate-path-15 1s 1s linear forwards;
 }
 
 @keyframes animate-path-15 {
@@ -612,6 +624,7 @@ circle {
 /* Path 20% */
 .path-20.in-view {
     animation: animate-path-20 1s 1s linear forwards;
+    -webkit-animation: animate-path-20 1s 1s linear forwards;
 }
 
 @keyframes animate-path-20 {
@@ -629,6 +642,7 @@ circle {
 /* Path 25% */
 .path-25.in-view {
     animation: animate-path-25 1s 1s linear forwards;
+    -webkit-animation: animate-path-25 1s 1s linear forwards;
 }
 
 @keyframes animate-path-25 {
@@ -646,6 +660,7 @@ circle {
 /* Path 30% */
 .path-30.in-view {
     animation: animate-path-30 1s 1s linear forwards;
+    -webkit-animation: animate-path-30 1s 1s linear forwards;
 }
 
 @keyframes animate-path-30 {
@@ -663,6 +678,7 @@ circle {
 /* Path 35% */
 .path-35.in-view {
     animation: animate-path-35 1s 1s linear forwards;
+    -webkit-animation: animate-path-35 1s 1s linear forwards;
 }
 
 @keyframes animate-path-35 {
@@ -680,6 +696,7 @@ circle {
 /* Path 40% */
 .path-40.in-view {
     animation: animate-path-40 1s 1s linear forwards;
+    -webkit-animation: animate-path-40 1s 1s linear forwards;
 }
 
 @keyframes animate-path-40 {
@@ -697,6 +714,7 @@ circle {
 /* Path 45% */
 .path-45.in-view {
     animation: animate-path-45 1s 1s linear forwards;
+    -webkit-animation: animate-path-45 1s 1s linear forwards;
 }
 
 @keyframes animate-path-45 {
@@ -714,6 +732,7 @@ circle {
 /* Path 50% */
 .path-50.in-view {
     animation: animate-path-50 1s 1s linear forwards;
+    -webkit-animation: animate-path-50 1s 1s linear forwards;
 }
 
 @keyframes animate-path-50 {
@@ -731,6 +750,7 @@ circle {
 /* Path 55% */
 .path-55.in-view {
     animation: animate-path-55 1s 1s linear forwards;
+    -webkit-animation: animate-path-55 1s 1s linear forwards;
 }
 
 @keyframes animate-path-55 {
@@ -748,6 +768,7 @@ circle {
 /* Path 60% */
 .path-60.in-view {
     animation: animate-path-60 1s 1s linear forwards;
+    -webkit-animation: animate-path-60 1s 1s linear forwards;
 }
 
 @keyframes animate-path-60 {
@@ -765,6 +786,7 @@ circle {
 /* Path 65% */
 .path-65.in-view {
     animation: animate-path-65 1s 1s linear forwards;
+    -webkit-animation: animate-path-65 1s 1s linear forwards;
 }
 
 @keyframes animate-path-65 {
@@ -782,6 +804,7 @@ circle {
 /* Path 70% */
 .path-70.in-view {
     animation: animate-path-70 1s 1s linear forwards;
+    -webkit-animation: animate-path-70 1s 1s linear forwards;
 }
 
 @keyframes animate-path-70 {
@@ -799,6 +822,7 @@ circle {
 /* Path 75% */
 .path-75.in-view {
     animation: animate-path-75 1s 1s linear forwards;
+    -webkit-animation: animate-path-75 1s 1s linear forwards;
 }
 
 @keyframes animate-path-75 {
@@ -816,6 +840,7 @@ circle {
 /* Path 80% */
 .path-80.in-view {
     animation: animate-path-80 1s 1s linear forwards;
+    -webkit-animation: animate-path-80 1s 1s linear forwards;
 }
 
 @keyframes animate-path-80 {
@@ -833,6 +858,7 @@ circle {
 /* Path 85% */
 .path-85.in-view {
     animation: animate-path-85 1s 1s linear forwards;
+    -webkit-animation: animate-path-85 1s 1s linear forwards;
 }
 
 @keyframes animate-path-85 {
@@ -850,6 +876,7 @@ circle {
 /* Path 90% */
 .path-90.in-view {
     animation: animate-path-90 1s 1s linear forwards;
+    -webkit-animation: animate-path-90 1s 1s linear forwards;
 }
 
 @keyframes animate-path-90 {
@@ -867,6 +894,7 @@ circle {
 /* Path 95% */
 .path-95.in-view {
     animation: animate-path-95 1s 1s linear forwards;
+    -webkit-animation: animate-path-95 1s 1s linear forwards;
 }
 
 @keyframes animate-path-95 {
@@ -884,6 +912,7 @@ circle {
 /* Path 100% */
 .path-100.in-view {
     animation: animate-path-100 1s 1s linear forwards;
+    -webkit-animation: animate-path-100 1s 1s linear forwards;
 }
 
 @keyframes animate-path-100 {
