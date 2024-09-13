@@ -862,7 +862,7 @@ circle {
 }
 
 /* Path 90% */
-svg .path-90.in-view {
+.radial-bar svg .path-90.in-view {
     animation: animate-path-90 1s 1s linear forwards;
     -webkit-animation: animate-path-90 1s 1s linear forwards;
 }
