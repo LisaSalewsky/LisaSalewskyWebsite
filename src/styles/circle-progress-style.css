@@ -462,7 +462,7 @@ circle {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(-90deg) translateZ(0);
     width: 120px;
     height: 160px;
     z-index: 3;
