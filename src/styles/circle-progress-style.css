@@ -89,10 +89,6 @@ circle {
     height: auto;
 }
 
-.c-5.in-view {
-    animation: circAnim-5 1.5s linear forwards;
-}
-
 .radial-bar, svg, circle {
     -webkit-transform: translateZ(0); /* For iOS Safari */
     transform: translateZ(0);
