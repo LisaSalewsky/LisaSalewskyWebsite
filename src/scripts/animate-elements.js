@@ -14,5 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const allAnimatedElements = document.querySelectorAll('.animate');
 
+    const moreAnimatedElements = document.querySelectorAll('.radial-bar');
+
     allAnimatedElements.forEach((element) => observer.observe(element));
+    moreAnimatedElements.forEach((element) => observer.observe(element));
 });
